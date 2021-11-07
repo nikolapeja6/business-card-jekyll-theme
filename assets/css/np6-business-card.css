@@ -1,0 +1,54 @@
+
+body{ 
+	display:flex; 
+	flex-direction:column; 
+ }
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 95%;
+	margin: 20px;
+	display: flex;
+	min-height: 20px;
+	justify-content: center;
+}
+
+.main-content {
+	text-transform: uppercase;
+	width: 700px;
+	max-width: 90%;
+	display: inline-block;
+	align-self: center;
+	margin-top: 15%;
+	text-align: center;
+	box-shadow: 3px 7px 15px 0 rgba(0, 0, 0, 0.7), 5px 10px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.card {
+	margin: 10px;
+
+}
+
+.btns {
+	display: inline-block;
+	clear: both;
+} 
+
+.icon {
+	margin: 20px;
+	width: 50px;
+	opacity: 0.6;
+}
+
+.highlighted {
+	margin: 15px;
+	width: 60px;
+	opacity: 0.9;
+}
+
+.circled {
+	border-radius: 50%;
+	padding: 10px;
+	border: 2px solid rgb(43,42,51);
+}
