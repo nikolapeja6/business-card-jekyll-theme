@@ -7,13 +7,13 @@ To experiment with this code, add some sample content and run `bundle exec jekyl
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "np6-business-card"
+gem "business-card-jekyll-theme", git: "https://github.com/nikolapeja6/np6-business-card"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: np6-business-card
+theme: business-card-jekyll-theme
 ```
 
 And then execute:
@@ -22,16 +22,13 @@ And then execute:
 bundle
 ```
 
-Or install it yourself as:
-
-```bash
-gem install np6-business-card
-```
+from the root of the project.
 
 ## Usage
 
 Add some or all of the following settings in the `_config.yml` file in order to configure your business card.
-The majority of the settings are optional, while a few have predefined default values (can be overridden by assigning an empty string `""` as the value of that setting).
+The majority of the settings are optional, while a few have predefined default values
+(which can be overridden by assigning an empty string `""` as the value of that setting).
 
 ```yaml
 # General settings
@@ -46,7 +43,7 @@ foreground:
 # Card info
 card:
   name:       John Doe
-  titles:     ""
+  titles:     Software Engineer | Student
 
 # Profiles
 profiles:
@@ -64,10 +61,12 @@ profiles:
 
 To set up your environment to develop this theme, run `bundle install`.
 
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+The theme is setup just like a normal Jekyll site! To test the theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`.
 
-When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `np6-business-card.gemspec` accordingly.
+## Icons
+
+The icons used in this project are obtained form [iconfinder](https://www.iconfinder.com/) under a "Free for commercial use" license,
+and can be view in this [collection](https://www.iconfinder.com/collections/collection/1940658).
 
 ## License
 
