@@ -25,9 +25,19 @@ footer {
 	box-shadow: 3px 7px 15px 0 rgba(0, 0, 0, 0.7), 5px 10px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
+a {
+	border:none;
+	outline:none;
+	text-decoration:none;
+	color:inherit;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
 .card {
 	margin: 10px;
-
 }
 
 .btns {
