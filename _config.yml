@@ -1,25 +1,5 @@
-# Setup
+# General settings
 title:        Business Card theme
-
-
-# About/contact
-card:
-  name:       John Doe
-  titles:     Software Engineer | Student
-
-profiles:
-  github:         octocat
-  youtube:        user/YouTube
-  twitter:        twitter
-  instagram:      instagram
-  facebook:       facebook
-  linkedin:       company/linkedin
-  stackoverflow:  1
-  twitch:         twitch
-
-# Gems
-#gems:
-#  - jekyll-paginate
 
 background:
   color:    rgb(43,42,51)
@@ -27,5 +7,21 @@ background:
 foreground:
   color:    whitesmoke
 
-#Others
+# Card info
+card:
+  #name:       John Doe
+  #titles:     ""
+
+# Profiles
+profiles:
+  #github:         octocat
+  #youtube:        user/YouTube
+  #twitter:        twitter
+  #instagram:      instagram
+  #facebook:       facebook
+  #linkedin:       company/linkedin
+  #stackoverflow:  1
+  #twitch:         twitch
+
+# Others
 markdown: kramdown

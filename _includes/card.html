@@ -1,7 +1,19 @@
 
 <div class="card">
-    <h1> {{ site.card.name }}</h1>
-    <h3> {{ site.card.titles }} </h3>
+    <h1> 
+        {% if site.card != nil and site.card.name != nil %}
+            {{ site.card.name }}
+        {% else %}
+            John Doe
+        {% endif %}
+    </h1>
+    <h3> 
+        {% if site.card != nil and site.card.titles != nil %}
+            {{ site.card.titles }}
+        {% else %}
+            Software Engineer | Student
+        {% endif %}
+    </h3>
     <div class="btns">
         {% if site.profiles != nil and site.profiles.facebook != nil %}
         <a href="https://www.facebook.com/{{ site.profiles.facebook }}" ><img class="icon" id="facebok" src="assets/images/icons/facebook_standard.svg" alt="Facebook" onmouseenter="highlightIcon(this)" onmouseleave="normalizeIcon(this)"/></a>

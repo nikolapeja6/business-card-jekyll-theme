@@ -1,3 +1,14 @@
 <footer class="site-footer" style="color: {{ site.foreground.color }};">
-  <span>&copy; {{ site.card.name }} | Business Card theme</span>
+  <span>
+    &copy;
+
+    {% if site.card != nil and site.card.name != nil %}
+        {{ site.card.name }}
+    {% else %}
+        John Doe
+    {% endif %}
+    
+    | Business Card theme
+  
+  </span>
 </footer>
