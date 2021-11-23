@@ -7,13 +7,19 @@ To experiment with this code, add some sample content and run `bundle exec jekyl
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "business-card-jekyll-theme", git: "https://github.com/nikolapeja6/np6-business-card"
+gem "business-card-jekyll-theme", git: "https://github.com/nikolapeja6/business-card-jekyll-theme"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
 theme: business-card-jekyll-theme
+```
+
+or, in case you are using GitHub Pages, the line should be:
+
+```yaml
+remote_theme: nikolapeja6/business-card-jekyll-theme
 ```
 
 And then execute:
@@ -56,6 +62,11 @@ profiles:
   stackoverflow:  1
   twitch:         twitch
 ```
+
+> Note: You can take a look at the `demo` branch of this repo for an example of how to setup the theme.
+
+> Note: You can take a look at `https://nikolapeja6.github.io/business-card-jekyll-theme/` to see 
+> how the site should look like after being built.
 
 ## Development
 
