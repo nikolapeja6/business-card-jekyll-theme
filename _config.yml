@@ -1,0 +1,29 @@
+# General settings
+title:        Business Card theme
+
+background:
+  color:    rgb(43,42,51)
+
+foreground:
+  color:    whitesmoke
+
+# Card info
+card:
+  name:       John Doe
+  titles:     Software Engineer | Student
+
+# Profiles
+profiles:
+  github:         octocat
+  youtube:        user/YouTube
+  twitter:        twitter
+  instagram:      instagram
+  facebook:       facebook
+  linkedin:       company/linkedin
+  stackoverflow:  1
+  twitch:         twitch
+
+# Build settings
+remote_theme: nikolapeja6/business-card-jekyll-theme
+
+markdown: kramdown
