@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "business-card-jekyll-theme"
-  spec.version       = "0.1.1"
+  spec.version       = "0.1.2"
   spec.authors       = ["Nikola Pejic"]
 
   spec.summary       = "Simple Jekyll Business Card theme."
@@ -12,5 +12,5 @@ Gem::Specification.new do |spec|
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|LICENSE|README|_config\.yml)!i) }
 
-  spec.add_runtime_dependency "jekyll", "~> 3.9.0"
+  spec.add_runtime_dependency "jekyll", "~> 3.9.2"
 end
