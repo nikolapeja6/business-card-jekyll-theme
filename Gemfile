@@ -14,7 +14,7 @@ gem "business-card-jekyll-theme", git: "https://github.com/nikolapeja6/np6-busin
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
-gem "github-pages", "~> 222", group: :jekyll_plugins
+gem "github-pages", "~> 226", group: :jekyll_plugins
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
